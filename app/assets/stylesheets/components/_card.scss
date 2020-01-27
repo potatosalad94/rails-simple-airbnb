@@ -1,0 +1,26 @@
+.card{
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card-header{
+  border: 0;
+  height: 180px;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-footer{
+  border: 0;
+  height: 50px;
+}
+
+.flat-name{
+  color: #000000;
+  text-decoration: none;
+  &:hover{
+    color: #000000;
+    text-decoration: underline;
+  }
+}
